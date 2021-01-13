@@ -1,5 +1,52 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+
+
+.trafficLight {
+    background: black;
+    height: 415px;
+    width: 180px;
+    padding-left: 5px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 5px darkslategrey; 
+}
+
+.trafficLight div {
+    height: 130px;
+    width: 160px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.greyLight {
+    border-radius: 50%;
+    background: lightgray;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.redLight {
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 30px 30px 30px 30px rgb(241, 40, 74);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.yellowLight {
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow: 30px 30px 30px 30px rgb(250, 234, 5);
+    margin-bottom: 5px;
+}
+
+.greenLight {
+    background-color: green;
+    border-radius: 50%;
+    box-shadow: 30px 30px 30px 30px rgb(57, 243, 57);
+    margin-bottom: 5px;
+}
+
 /* 
 
     You can write your own styles here...
